@@ -18,6 +18,7 @@ public class base
 		try 
 		{
 			file = new FileInputStream("D:\\eclipse-workspace\\Automation\\src\\main\\resources\\parameters.properties");
+			
 			prop.load(file);
 		} 
 		
